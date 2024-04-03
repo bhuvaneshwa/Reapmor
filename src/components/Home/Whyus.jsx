@@ -1,7 +1,7 @@
 export default function Whyus() {
   return (
     <div>
-      <section className="my-8 dark:bg-gray-100 dark:text-gray-800">
+      <section className="my-8 mx-10 dark:bg-gray-100 dark:text-gray-800">
         <div className="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12">
           <hr className="w-full border-t border-gray-300 my-4" />
           <h1 className="p-4 text-xl font-semibold sm:text-justify leading-none lg:text-center">
@@ -16,16 +16,18 @@ export default function Whyus() {
         </div>
 
         <div className="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 justify-items-center mx-auto">
-          <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
+          <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 shadow-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
             <div className="max-w-xs rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
               <img
                 src="/01.jpeg"
                 alt=""
                 className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500"
               />
-              <div className="flex flex-col justify-between p-6 space-y-8 
+              <div
+                className="flex flex-col justify-between p-6 space-y-8 
               
-              ">
+              "
+              >
                 <div className="space-y-2">
                   <h2 className="text-xl font-semibold tracking-wide text-green-600">
                     Comprehensive coverage
@@ -38,7 +40,7 @@ export default function Whyus() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+          <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 shadow-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             <div className="max-w-xs rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
               <img
                 src="/01.jpeg"
@@ -48,17 +50,17 @@ export default function Whyus() {
               <div className="flex flex-col justify-between p-6 space-y-8">
                 <div className="space-y-2">
                   <h2 className="text-xl font-semibold tracking-wide text-green-600">
-                    Actionable Insights
+                    Accurate Information
                   </h2>
                   <p className="dark:text-gray-800 ">
-                    We provide practical recommendations to enhance
-                    decision-making efficiency.
+                    Trust in our precise and reliable data for optimised
+                    outcomes in agriculture.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+          <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 shadow-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
             <div className="max-w-xs rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
               <img
                 src="/01.jpeg"
@@ -68,17 +70,17 @@ export default function Whyus() {
               <div className="flex flex-col justify-between p-6 space-y-8">
                 <div className="space-y-2">
                   <h2 className="text-xl font-semibold tracking-wide text-green-600">
-                    Actionable Insights
+                    Timely Refresh
                   </h2>
                   <p className="dark:text-gray-800 ">
-                    We provide practical recommendations to enhance
-                    decision-making efficiency.
+                    Stay ahead with our directory's timely updates available at
+                    your fingertips.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+          <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 shadow-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
             <div className="max-w-xs rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
               <img
                 src="/01.jpeg"

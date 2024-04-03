@@ -78,21 +78,19 @@ export default function Layout() {
           } flex-col items-center space-y-3 bg-gray-100 text-black dark:bg-white w-full py-4`}
         >
           <li className="flex">
-            <Link
-              to="/"
-              rel="noopener noreferrer"
-              href="#"
-              className="flex items-center px-4 -mb-1 text-gray-800 dark:text-gray-200"
-            >
-              Home
-            </Link>
-          </li>
+  <Link
+    to="/"
+    className="flex items-center px-4 -mb-1 hover:bg-green-600 w-full hover:text-white"
+  >
+    Home
+  </Link>
+</li>
+
           <li className="flex relative">
             <Link
-              to="/solutions"
-              rel="noopener noreferrer"
-              href="#"
-              className="flex items-center px-4 -mb-1 text-gray-800 dark:text-gray-200"
+              
+             
+              className="flex items-center px-4 -mb-1"
               onMouseEnter={toggleDropdown}
               onMouseLeave={closeDropdown}
             >
@@ -109,7 +107,7 @@ export default function Layout() {
                     to="/solution1"
                     rel="noopener noreferrer"
                     href="#"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    className="block px-4 py-2"
                   >
                     Solution 1
                   </Link>
@@ -119,19 +117,19 @@ export default function Layout() {
                     to="/solution2"
                     rel="noopener noreferrer"
                     href="#"
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    className="block px-4 py-2"
                   >
                     Solution 2
                   </Link>
                 </li>
-                {/* Add more dropdown items as needed */}
+                
               </ul>
             )}
           </li>
           <li className="flex">
             <a
               href="#"
-              className="flex items-center px-4 -mb-1 text-gray-800 dark:text-gray-200"
+              className="flex items-center px-4 -mb-1"
             >
               About
             </a>
@@ -139,7 +137,7 @@ export default function Layout() {
           <li className="flex">
             <a
               href="#"
-              className="flex items-center px-4 -mb-1 text-gray-800 dark:text-gray-200"
+              className="flex items-center px-4 -mb-1"
             >
               Contact
             </a>
@@ -153,7 +151,7 @@ export default function Layout() {
           isScrolled ? "fixed top-0 left-0 right-0 z-10" : ""
         }`}
       >
-        <div className="container mx-auto">
+        <div className="container mx-5 ">
           <div className="container flex justify-between items-center mx-auto">
             <Link
               to="/"
