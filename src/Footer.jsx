@@ -18,20 +18,7 @@ export default function Footer() {
 				</li>
 			</ul>
 		</div>
-		<ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
-            <li><a>
-            email : narain.tm@reapmor.com
-            </a></li>
-			{/* <li>
-				<a rel="noopener noreferrer" href="#">Instagram</a>
-			</li>
-			<li>
-				<a rel="noopener noreferrer" href="#">Facebook</a>
-			</li>
-			<li>
-				<a rel="noopener noreferrer" href="#">Twitter</a>
-			</li> */}
-		</ul>
+		
 	</div>
 </footer>
     </div>
