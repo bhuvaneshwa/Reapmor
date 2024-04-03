@@ -15,7 +15,7 @@ export default function Whyus() {
           <h1 className="text-green-600 mb-8">Why Reapmor?</h1>
         </div>
 
-        <div className="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 justify-items-center mx-auto">
+        <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 justify-items-center mx-auto">
           <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 shadow-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
             <div className="max-w-xs rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
               <img
