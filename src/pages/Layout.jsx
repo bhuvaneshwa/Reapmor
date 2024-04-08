@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+// Layout.js
+import React, { useState, useEffect } from "react";
 import { Outlet, Link } from "react-router-dom";
 
 export default function Layout() {
@@ -78,18 +79,16 @@ export default function Layout() {
           } flex-col items-center space-y-3 bg-gray-100 text-black dark:bg-white w-full py-4`}
         >
           <li className="flex">
-  <Link
-    to="/"
-    className="flex items-center px-4 -mb-1 hover:bg-green-600 w-full hover:text-white"
-  >
-    Home
-  </Link>
-</li>
+            <Link
+              to="/"
+              className="flex items-center px-4 -mb-1 hover:bg-green-600 w-full hover:text-white"
+            >
+              Home
+            </Link>
+          </li>
 
           <li className="flex relative">
             <Link
-              
-             
               className="flex items-center px-4 -mb-1"
               onMouseEnter={toggleDropdown}
               onMouseLeave={closeDropdown}
@@ -100,7 +99,10 @@ export default function Layout() {
             {isDropdownOpen && (
               <ul
                 className="absolute bg-white shadow-md"
-                style={{ top: dropdownPosition.top, left: dropdownPosition.left }}
+                style={{
+                  top: dropdownPosition.top,
+                  left: dropdownPosition.left,
+                }}
               >
                 <li>
                   <Link
@@ -122,23 +124,16 @@ export default function Layout() {
                     Solution 2
                   </Link>
                 </li>
-                
               </ul>
             )}
           </li>
           <li className="flex">
-            <a
-              href="#"
-              className="flex items-center px-4 -mb-1"
-            >
+            <a href="#" className="flex items-center px-4 -mb-1">
               About
             </a>
           </li>
           <li className="flex">
-            <a
-              href="#"
-              className="flex items-center px-4 -mb-1"
-            >
+            <a href="#" className="flex items-center px-4 -mb-1">
               Contact
             </a>
           </li>
@@ -151,7 +146,7 @@ export default function Layout() {
           isScrolled ? "fixed top-0 left-0 right-0 z-10" : ""
         }`}
       >
-        <div className="container mx-5 ">
+        <div className="container ">
           <div className="container flex justify-between items-center mx-auto">
             <Link
               to="/"
@@ -188,7 +183,10 @@ export default function Layout() {
                 {isDropdownOpen && (
                   <ul
                     className="absolute bg-white shadow-md"
-                    style={{ top: dropdownPosition.top, left: dropdownPosition.left }}
+                    style={{
+                      top: dropdownPosition.top,
+                      left: dropdownPosition.left,
+                    }}
                   >
                     <li>
                       <Link
@@ -215,18 +213,12 @@ export default function Layout() {
                 )}
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-gray-800 dark:text-black px-4 py-2"
-                >
+                <a href="#" className="text-gray-800 dark:text-black px-4 py-2">
                   About
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-gray-800 dark:text-black px-4 py-2"
-                >
+                <a href="#" className="text-gray-800 dark:text-black px-4 py-2">
                   Contact
                 </a>
               </li>

@@ -4,6 +4,7 @@ import Directory from "./Home/Directory";
 import Hero from "./Home/Hero";
 import Whyus from "./Home/Whyus";
 
+
 export default function Home() {
   return (
     <div>
@@ -13,6 +14,8 @@ export default function Home() {
       <Hero/>
       <Whyus/>
       <Directory/>
+
+      
       <Footer/>
     </div>
   )
