@@ -4,7 +4,10 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Agribusiness from "./components/Solutions/Agribusiness";
-import Framer from "./components/Solutions/Framer";
+import Farmer from "./components/Solutions/Farmer";
+import Footer from "./Footer";
+import Ourstory from "./components/Ourstory";
+
 export default function App() {
   return (
     <div>
@@ -15,13 +18,14 @@ export default function App() {
           
           <Route index element={<Home/>} />
           <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="framer" element={<Framer/>} />
+          <Route path="contactus" element={<Contact />} />
+          <Route path="farmer" element={<Farmer/>} />
           <Route path="agribusiness" element={<Agribusiness />} />
-          
+          <Route path="ourstory" element={<Ourstory />} />
         </Route>
       </Routes>
     </BrowserRouter>
+    <Footer/>
     </div>
   )
 }
