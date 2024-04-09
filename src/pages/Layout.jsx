@@ -4,7 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 // Dropdown Menu Component
 const DropdownMenu = () => {
   return (
-    <ul className="absolute mt-8 bg-white shadow-lg rounded-md w-48 py-2">
+    <ul className="absolute mt-8 bg-white shadow-lg rounded-md w-48  py-2">
       <li>
         <Link to="/farmer" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">
           For Farmer
@@ -65,8 +65,8 @@ export default function Layout() {
     <div>
       {/* Mobile Navbar */}
       <header
-        className={`p-4 dark:bg-gray-100 dark:text-gray-800 md:hidden ${
-          isScrolled ? "fixed top-0 left-0 right-0 z-10 bg-white shadow-lg" : ""
+        className={`p-4 dark:bg-gray-100 dark:text-gray-800 md:hidden fixed top-0 left-0 right-0 z-10 ${
+          isScrolled ? "bg-white shadow-lg" : ""
         }`}
       >
         <div className="container flex justify-between items-center mx-auto">
@@ -98,7 +98,7 @@ export default function Layout() {
         </div>
         <ul
           className={`${
-            isOpenMenu ? "flex" : "hidden"
+            isOpenMenu || isScrolled ? "flex" : "hidden"
           } flex-col items-center space-y-3 bg-gray-100 text-black dark:bg-white w-full py-4`}
         >
           <li className="flex">

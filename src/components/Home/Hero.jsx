@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <div>
       <div
-        className="relative h-screen bg-cover bg-fixed bg-center"
+        className="relative h-screen bg-cover  bg-center"
         style={{
           backgroundImage: 'url("/home-image.jpg")',
         }}
@@ -23,7 +23,7 @@ export default function Hero() {
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black opacity-65"></div>
 
-        <div className="absolute sm:mx-0 xl:mx-14 sm:w-full w-4/5 m-24 top-1/4 left-1/10 transform -translate-y-1/2 text-left px-8">
+        <div className="absolute sm:pt-20 sm:mx-0 xl:mx-14 sm:w-full w-4/5 m-24 top-1/4 left-1/10 transform -translate-y-1/2 text-left px-8">
           <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
             <div className="w-full">
               <h1 className="text-4xl lg:text-[60px] text-white font-extralight tracking-wide leading-normal mb-8">
