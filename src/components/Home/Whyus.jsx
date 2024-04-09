@@ -29,10 +29,10 @@ export default function Whyus() {
               "
               >
                 <div className="space-y-2">
-                  <h2 className="text-xl font-bold tracking-wide text-green-600">
+                  <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
                     Comprehensive coverage
                   </h2>
-                  <p className="dark:text-gray-800 text-justify">
+                  <p className="dark:text-gray-800  text-center">
                   Build data-driven strategies backed by a wealth of agricultural information.
 
                   </p>
@@ -52,10 +52,10 @@ export default function Whyus() {
                  
 
 
-                  <h2 className="text-xl font-bold tracking-wide text-green-600">
+                  <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
                     Accurate Information
                   </h2>
-                  <p className="dark:text-gray-800 text-justify ">
+                  <p className="dark:text-gray-800 text-center ">
                   Trust in our precise and reliable data for optimised outcomes in your business.
 
                   </p>
@@ -72,10 +72,10 @@ export default function Whyus() {
               />
               <div className="flex flex-col justify-between p-6 space-y-8">
                 <div className="space-y-2">
-                  <h2 className="text-xl font-bold tracking-wide text-green-600">
+                  <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
                     Timely Refresh
                   </h2>
-                  <p className="dark:text-gray-800 text-justify ">
+                  <p className="dark:text-gray-800 text-center ">
                   Stay ahead with our directory's near real-time updates available at your fingertips
                   </p>
                 </div>
@@ -93,11 +93,11 @@ export default function Whyus() {
               />
               <div className="flex flex-col justify-between p-6 space-y-8">
                 <div className="space-y-2">
-                  <h2 className="text-xl font-bold tracking-wide text-green-600">
+                  <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
                     Actionable Insights
                   </h2>
-                  <p className="dark:text-gray-800 text-justify ">
-                  Unlock actionable & practical recommendations to enhance your decision-making efficiency.
+                  <p className="dark:text-gray-800 text-center ">
+                  Unlock actionable & practical recommendations to enhance your decision-making efficiency.
                   </p>
                 </div>
               </div>

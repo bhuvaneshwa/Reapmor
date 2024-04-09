@@ -29,7 +29,7 @@ export default function Hero() {
               <h1 className="text-4xl lg:text-[60px] text-white font-extralight tracking-wide leading-normal mb-8">
                 <span className="">A digital identity</span> <br />
                 <span className="mr-2 pt-4">for every</span> <br />
-                <span className="mr-2 text-[#c2fc03] lg:text-6xl xl:text-[60px]">{texts[textIndex]}</span>
+                <span className="mr-2 text-[#c2fc03]  xl:text-[60px]">{texts[textIndex]}</span>
               </h1>
             
 
