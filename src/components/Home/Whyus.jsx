@@ -1,16 +1,16 @@
 export default function Whyus() {
   return (
     <div>
-      <section className="my-8 mx-10 dark:bg-gray-100 dark:text-gray-800">
-        <div className="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12">
+      <section className="my-5 mx-10 dark:bg-gray-100 dark:text-gray-800">
+        <div className="container flex flex-col items-center mx-auto mb-1 md:p-1 md:px-12">
           <hr className="w-full border-t border-gray-300 my-4" />
-          <h1 className="p-4 text-[18px] text-black  sm:text-justify font-extralight leading-none lg:text-center">
-          At Reapmor, Our commitment lies in maintaining an up-to-date directory, enabling you to take data-driven business decisions.
+          <h1 className="p-4 text-[18px] text-black  sm:text-justify font-normal leading-normal lg:text-center">
+          At Reapmor, Our commitment lies in maintaining an up-to-date directory,<br/> enabling you to take data-driven business decisions.
           </h1>
           <hr className="w-full border-t border-gray-300 my-4" />
         </div>
-        <div className="container flex flex-col items-center font-bold mx-auto text-3xl">
-          <h1 className="text-green-600 mb-8">Why Reapmor?</h1>
+        <div className="container flex flex-col items-center  mx-auto text-3xl">
+          <h1 className="text-black mb-8">Why Reapmor?</h1>
         </div>
 
         <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 justify-items-center mx-auto">
