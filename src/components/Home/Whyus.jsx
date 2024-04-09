@@ -5,9 +5,7 @@ export default function Whyus() {
         <div className="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12">
           <hr className="w-full border-t border-gray-300 my-4" />
           <h1 className="p-4 text-[18px] text-black  sm:text-justify font-extralight leading-none lg:text-center">
-            At Reapmor, Our commitment lies in maintaining an up-to-date
-            directory, enabling you to acquire farmers for your requirements
-            easily while focusing on your business.
+          At Reapmor, Our commitment lies in maintaining an up-to-date directory, enabling you to take data-driven business decisions.
           </h1>
           <hr className="w-full border-t border-gray-300 my-4" />
         </div>
