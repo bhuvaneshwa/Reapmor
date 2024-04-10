@@ -6,7 +6,7 @@ export default function Directory() {
   useEffect(() => {
     // Fetch data from the API
     fetch(
-      "https://n2q3kdouzl.execute-api.ap-south-1.amazonaws.com/frontendapi/homePageCoverage"
+      "https://o95qy7pzu1.execute-api.ap-south-1.amazonaws.com/homePageCoverage"
     )
       .then((response) => {
         if (!response.ok) {
