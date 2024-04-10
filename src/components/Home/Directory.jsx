@@ -26,8 +26,8 @@ export default function Directory() {
   return (
     <div>
       <section className=" dark:bg-gray-700 dark:text-white  p-4 bg-opacity-35">
-        <h1 className="text-center text-sm">Our Directory Coverage</h1>
-        <div className="container mx-auto grid justify-center sm:grid-cols-2 md:grid-cols-3 text-center  lg:grid-cols-6">
+        <h1 className="text-center lg:text-3xl sm:text-sm">Our Directory Coverage</h1>
+        <div className="container mx-auto grid justify-center sm:gap-14 sm:grid-cols-2 md:grid-cols-3 text-center  lg:grid-cols-6">
           {coverageData &&
             Object.entries(coverageData).map(([category, value]) => (
               <div

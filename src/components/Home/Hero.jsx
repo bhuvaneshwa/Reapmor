@@ -13,35 +13,27 @@ export default function Hero() {
   }, [texts.length]);
 
   return (
-    <div>
-      <div
-        className="relative h-screen bg-cover bg-fixed  bg-center"
-        style={{
-          backgroundImage: 'url("/home-image.jpg")',
-        }}
-      >
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-black opacity-65"></div>
+    <div
+      className="relative h-screen bg-cover bg-fixed bg-center"
+      style={{
+        backgroundImage: 'url("/bg.webp")', // Replace "/home-image.jpg" with the path to your background image
+      }}
+    >
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black opacity-65"></div>
 
-        <div className="absolute sm:pt-20 sm:mx-0 xl:mx-14 sm:w-full w-4/5 m-24 top-1/4 left-1/10 transform -translate-y-1/2 text-left px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
-            <div className="w-full">
-              <h1 className="text-4xl sm:text-[3rem] lg:text-[60px] text-white font-extralight tracking-wide leading-normal mb-8">
-                <span className="">A digital identity</span> <br />
-                <span className="mr-2 pt-4">for every</span> <br />
-                <span className="mr-2 text-[#c2fc03]  xl:text-[60px]">{texts[textIndex]}</span>
-              </h1>
-            
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 px-4 md:px-8 lg:px-16 xl:px-24">
+          <div>
+            <h1 className="text-4xl sm:text-center  lg:text-left sm:text-5xl lg:text-6xl text-white font-extralight tracking-wide leading-normal mb-8">
+              <span className="">A digital identity</span> <br />
+              <span className="pt-4">for every</span> <br />
+              <span className="text-[#c2fc03] lg:text-6xl">{texts[textIndex]}</span>
+            </h1>
 
-              <p className="lg:text-[18px] sm:text-[1rem] sm:text-justify   tracking-wider  leading-8  font-extralight text-justify text-white mb-8">
-                Introducing India’s first digital agriculture directory, reimagining the industry with <br/>innovative data-driven solutions for 
-                 procurement, crop planning and targeted marketing.
-              </p>
-
-            
-             
-            </div>
-           
+            <p className="md:text-xl lg:text-md xl:text-2xl text-white font-light leading-8 mb-8">
+              Introducing India’s first digital agriculture directory, reimagining the industry with innovative data-driven solutions  for procurement, crop planning, and targeted marketing.
+            </p>
           </div>
         </div>
       </div>
