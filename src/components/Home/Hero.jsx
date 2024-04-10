@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <div>
       <div
-        className="relative h-screen bg-cover  bg-center"
+        className="relative h-screen bg-cover bg-fixed  bg-center"
         style={{
           backgroundImage: 'url("/home-image.jpg")',
         }}
