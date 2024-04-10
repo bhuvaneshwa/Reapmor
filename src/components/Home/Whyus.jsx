@@ -1,19 +1,23 @@
+import Directory from "./Directory"
+
 export default function Whyus() {
   return (
     <div>
       <section className="my-5 mx-10 dark:bg-gray-100 dark:text-gray-800">
         <div className="container flex flex-col items-center mx-auto mb-1 md:p-1 md:px-12">
           <hr className="w-full border-t border-gray-300 my-4" />
-          <h1 className="p-4 text-[18px] text-black  sm:text-justify font-normal leading-normal lg:text-center">
+          <h1 className="p-4 text-[18px] sm:text-md  text-black  sm:text-center font-normal leading-normal lg:text-center">
           At Reapmor, Our commitment lies in maintaining an up-to-date directory,<br/> enabling you to take data-driven business decisions.
           </h1>
           <hr className="w-full border-t border-gray-300 my-4" />
         </div>
+
+        <Directory/>
         <div className="container flex flex-col items-center  mx-auto text-3xl">
           <h1 className="text-black mb-8">Why Reapmor?</h1>
         </div>
 
-        <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 justify-items-center mx-auto">
+        <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8 justify-items-center mx-auto">
           <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 shadow-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300">
             <div className="max-w-xs rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
               <img
@@ -64,7 +68,7 @@ export default function Whyus() {
           <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 shadow-lg transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
             <div className="max-w-xs rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
               <img
-                src="/farm_stages.jpg"
+                src="https://blog.machinefinder.com/wp-content/uploads/2017/02/Farming-Cycle.png"
                 alt=""
                 className="object-cover object-fit object-center w-full rounded-t-md h-72 dark:bg-gray-500"
               />
@@ -74,7 +78,7 @@ export default function Whyus() {
                     Timely Refresh
                   </h2>
                   <p className="dark:text-gray-800 text-center ">
-                  Stay ahead with our directory's near real-time updates available at your fingertips
+                  Stay ahead with our {"directory's"} near real-time updates available at your fingertips
                   </p>
                 </div>
               </div>

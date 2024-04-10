@@ -26,14 +26,14 @@ export default function Hero() {
         <div className="absolute sm:pt-20 sm:mx-0 xl:mx-14 sm:w-full w-4/5 m-24 top-1/4 left-1/10 transform -translate-y-1/2 text-left px-8">
           <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
             <div className="w-full">
-              <h1 className="text-4xl lg:text-[60px] text-white font-extralight tracking-wide leading-normal mb-8">
+              <h1 className="text-4xl sm:text-[3rem] lg:text-[60px] text-white font-extralight tracking-wide leading-normal mb-8">
                 <span className="">A digital identity</span> <br />
                 <span className="mr-2 pt-4">for every</span> <br />
                 <span className="mr-2 text-[#c2fc03]  xl:text-[60px]">{texts[textIndex]}</span>
               </h1>
             
 
-              <p className="text-[18px]  tracking-wider  leading-8  font-extralight text-justify text-white mb-8">
+              <p className="lg:text-[18px] sm:text-[1rem] sm:text-justify   tracking-wider  leading-8  font-extralight text-justify text-white mb-8">
                 Introducing India’s first digital agriculture directory, reimagining the industry with <br/>innovative data-driven solutions for 
                  procurement, crop planning and targeted marketing.
               </p>
