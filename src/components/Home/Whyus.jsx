@@ -7,7 +7,7 @@ export default function Whyus() {
         <div className="container flex flex-col items-center mx-auto mb-1 md:p-1 md:px-12">
           <hr className="w-full border-t border-gray-300 my-4" />
           <h1 className="p-4 text-lg md:text-xl lg:text-2xl text-center font-normal leading-8">
-            At Reapmor, Our commitment lies in maintaining an up-to-date directory, enabling you to make data-driven business decisions.
+          At Reapmor, Our commitment lies in maintaining an up-to-date directory, enabling you to take data-driven business decisions.
           </h1>
           <hr className="w-full border-t border-gray-300 my-4" />
         </div>
@@ -15,7 +15,7 @@ export default function Whyus() {
         <Directory />
 
         <div className="container flex flex-col items-center mx-auto mt-5">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl text-black mb-8">Why Reapmor?</h1>
+          <h1 className="text-3xl md:text-4xl lg:text-3xl text-black mb-8">Why Reapmor?</h1>
         </div>
 
         <div className="container grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center mx-auto">
@@ -41,16 +41,19 @@ export default function Whyus() {
           <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 transition duration-300 hover:-translate-y-1 hover:scale-110">
             <div className="max-w-xs rounded-md shadow-md">
               <img
-                src="https://spinoff.nasa.gov/sites/default/files/2020-08/ee_29_web_1.jpg"
+                src="/datacopy_photo.jpeg.jpg"
                 alt=""
                 className="object-cover object-center w-full rounded-t-md sm:h-72"
               />
               <div className="flex flex-col justify-between p-6 space-y-2">
                 <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
-                  Comprehensive coverage
+                Accurate
+
+Information
                 </h2>
                 <p className="text-center leading-7">
-                  Build data-driven strategies backed by a wealth of agricultural information.
+                Trust in our precise and reliable data for optimised outcomes in your business.
+
                 </p>
               </div>
             </div>
@@ -61,16 +64,19 @@ export default function Whyus() {
           <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 transition duration-300 hover:-translate-y-1 hover:scale-110">
             <div className="max-w-xs rounded-md shadow-md">
               <img
-                src="https://spinoff.nasa.gov/sites/default/files/2020-08/ee_29_web_1.jpg"
+                src="https://pbs.twimg.com/media/GCax7e8XUAAHnXE?format=jpg&name=large"
                 alt=""
                 className="object-cover object-center w-full rounded-t-md sm:h-72"
               />
               <div className="flex flex-col justify-between p-6 space-y-2">
                 <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
-                  Comprehensive coverage
+                Timely
+
+Refresh
                 </h2>
                 <p className="text-center leading-7">
-                  Build data-driven strategies backed by a wealth of agricultural information.
+                Stay ahead with our directory's near real-time updates available at your fingertips.
+
                 </p>
               </div>
             </div>
@@ -81,16 +87,18 @@ export default function Whyus() {
           <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 transition duration-300 hover:-translate-y-1 hover:scale-110">
             <div className="max-w-xs rounded-md shadow-md">
               <img
-                src="https://spinoff.nasa.gov/sites/default/files/2020-08/ee_29_web_1.jpg"
+                src="/why42.jpg"
                 alt=""
                 className="object-cover object-center w-full rounded-t-md sm:h-72"
               />
               <div className="flex flex-col justify-between p-6 space-y-2">
                 <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
-                  Comprehensive coverage
+                Actionable
+
+Insights
                 </h2>
                 <p className="text-center leading-7">
-                  Build data-driven strategies backed by a wealth of agricultural information.
+                 Unlock actionable & practical recommendations to enhance your decision-making efficiency.
                 </p>
               </div>
             </div>
