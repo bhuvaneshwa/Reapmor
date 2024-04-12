@@ -73,7 +73,7 @@ export default function Whyus() {
                   Timely <br/> Refresh
                 </h2>
                 <p className="text-center xs:text-lg leading-7">
-                  Stay ahead with our {"directory's"} near real-time updates
+                  Stay ahead with our {"directory's"} real-time updates
                   available at your fingertips.
                 </p>
               </div>
