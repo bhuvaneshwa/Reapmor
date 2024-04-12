@@ -27,7 +27,7 @@ export default function Directory() {
     <div>
       <section className=" dark:bg-gray-700 dark:text-white  p-4 bg-opacity-35">
         <h1 className="text-center lg:text-3xl sm:text-sm xs:text-3xl xs:mb-8 xs:mt-8">Our Directory Coverage</h1>
-        <div className="container mx-auto grid justify-center xs:gap-8 sm:gap-14 sm:grid-cols-2 md:grid-cols-3 text-center  lg:grid-cols-6">
+        <div className="container mx-auto grid justify-center xs:gap-8 sm:gap-14 sm:grid-cols-2 md:grid-cols-3 text-center xs:mb-8  lg:grid-cols-6">
           {coverageData &&
             Object.entries(coverageData).map(([category, value]) => (
               <div
@@ -35,7 +35,7 @@ export default function Directory() {
                 className="flex flex-col justify-start m-2  lg:m-6"
               >
                 <p className="text-sm xs:text-xl  sm:text-base">{category}</p>
-                <p className="text-4xl font-bold leading-none lg:text-3xl xs:mb-8">
+                <p className="text-4xl font-bold leading-none lg:text-3xl ">
                   {value}
                 </p>
               </div>
