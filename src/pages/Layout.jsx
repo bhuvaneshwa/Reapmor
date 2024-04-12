@@ -162,8 +162,8 @@ export default function Layout() {
       </header>
 
       {/* Desktop Navbar */}
-      <nav className="hidden md:block bg-gray-100 dark:bg-white p-2">
-        <div className="container mx-auto px-[4.5rem]">
+      <nav className="hidden md:block bg-gray-100 dark:bg-white p-0">
+        <div className="container px-[4.5rem]">
           <div className="container flex justify-between items-center">
             <Link
               to="/"
@@ -173,7 +173,7 @@ export default function Layout() {
               <img src="/image.png" alt="Logo" className="h-10 mr-2" />
             </Link>
 
-
+            
             <ul className="flex justify-between items-center space-x-4">
               <li>
                 <Link
