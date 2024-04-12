@@ -64,7 +64,7 @@ Information
           <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 transition duration-300 hover:-translate-y-1 hover:scale-110">
             <div className="max-w-xs rounded-md shadow-md">
               <img
-                src="https://pbs.twimg.com/media/GCax7e8XUAAHnXE?format=jpg&name=large"
+                src="/Farming-Cycle.png"
                 alt=""
                 className="object-cover object-center w-full rounded-t-md sm:h-72"
               />

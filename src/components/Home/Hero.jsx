@@ -16,17 +16,19 @@ export default function Hero() {
     <div
       className="relative h-screen bg-cover bg-fixed bg-center"
       style={{
-        backgroundImage: 'url("/bg.webp")', // Replace "/home-image.jpg" with the path to your background image
+        backgroundImage: 'url("/home-image.jpg")', // Replace "/home-image.jpg" with the path to your background image
       }}
     >
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black opacity-65"></div>
 
-      <div className="absolute inset-0 flex items-center justify-center">
+      <div className="absolute inset-0 flex items-center justify-center font-sans">
         <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 px-4 md:px-8 lg:px-16 xl:px-24">
           <div>
-            <h1 className="text-4xl sm:text-center  lg:text-left sm:text-5xl lg:text-6xl text-white font-extralight tracking-wide leading-normal mb-8">
-              <span className="">A digital identity</span> <br />
+            <h1 className="text-4xl sm:text-center   lg:text-left sm:text-5xl lg:text-6xl
+             leading-10
+            text-white font-extralight tracking-wide  mb-8">
+              <span>A digital identity</span> <br />
               <span className="pt-4">for every</span> <br />
               <span className="text-[#c2fc03] lg:text-6xl">{texts[textIndex]}</span>
             </h1>
