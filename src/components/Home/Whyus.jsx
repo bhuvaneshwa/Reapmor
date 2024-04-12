@@ -6,7 +6,7 @@ export default function Whyus() {
       <section className="my-5 mx-10 dark:bg-gray-100 dark:text-gray-800">
         <div className="container flex flex-col items-center mx-auto mb-1 md:p-1 md:px-12">
           <hr className="w-full border-t border-gray-300 my-4" />
-          <h1 className="p-4 text-lg md:text-xl lg:text-2xl text-center font-normal" style={{lineHeight: "2.5rem"}}>
+          <h1 className="p-4 text-lg xs:text-lg md:text-xl lg:text-2xl text-center font-normal" style={{lineHeight: "2.25rem"}}>
             At Reapmor, Our commitment lies in maintaining an up-to-date
             directory, enabling you to take data-driven business decisions.
           </h1>
@@ -16,7 +16,7 @@ export default function Whyus() {
         <Directory />
 
         <div className="container flex flex-col items-center mx-auto mt-5">
-          <h1 className="text-3xl md:text-4xl lg:text-3xl text-black mb-8">
+          <h1 className="text-3xl xs:text-3xl md:text-4xl lg:text-3xl text-black mb-8">
             Why Reapmor?
           </h1>
         </div>
@@ -31,10 +31,10 @@ export default function Whyus() {
                 className="object-cover object-center w-full rounded-t-md sm:h-72"
               />
               <div className="flex flex-col justify-between p-6 space-y-2">
-                <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
+                <h2 className="text-xl xs:text-2xl font-bold tracking-wide text-center text-green-600">
                   Comprehensive coverage
                 </h2>
-                <p className="text-center leading-7">
+                <p className="text-center xs:text-lg leading-7">
                   Build data-driven strategies backed by a wealth of
                   agricultural information.
                 </p>
@@ -50,10 +50,10 @@ export default function Whyus() {
                 className="object-cover object-left-bottom w-full rounded-t-md sm:h-72"
               />
               <div className="flex flex-col justify-between p-6 space-y-2">
-                <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
+                <h2 className="text-2xl font-bold tracking-wide text-center text-green-600">
                   Accurate<br/> Information
                 </h2>
-                <p className="text-center leading-7">
+                <p className="text-center xs:text-lg leading-7">
                   Trust in our precise and reliable data for optimised outcomes
                   in your business.
                 </p>
@@ -69,10 +69,10 @@ export default function Whyus() {
                 className="object-cover object-center w-full rounded-t-md sm:h-72"
               />
               <div className="flex flex-col justify-between p-6 space-y-2">
-                <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
+                <h2 className="text-xl xs:text-2xl font-bold tracking-wide text-center text-green-600">
                   Timely <br/> Refresh
                 </h2>
-                <p className="text-center leading-7">
+                <p className="text-center xs:text-lg leading-7">
                   Stay ahead with our {"directory's"} near real-time updates
                   available at your fingertips.
                 </p>
@@ -88,10 +88,10 @@ export default function Whyus() {
                 className="object-cover object-center w-full rounded-t-md sm:h-72"
               />
               <div className="flex flex-col justify-between p-6 space-y-2">
-                <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
+                <h2 className="text-xl xs:text-2xl font-bold tracking-wide text-center text-green-600">
                   Actionable recommendations 
                 </h2>
-                <p className="text-center leading-7">
+                <p className="text-center xs:text-lg leading-7">
                   Unlock actionable & practical insights to enhance your
                   decision-making efficiency.
                 </p>

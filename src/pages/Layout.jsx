@@ -163,7 +163,7 @@ export default function Layout() {
 
       {/* Desktop Navbar */}
       <nav className="hidden md:block bg-gray-100 dark:bg-white p-2">
-        <div className="container mx-auto md:mx-0 px-[5.3rem]">
+        <div className="container mx-auto md:mx-0 px-[4.5rem]">
           <div className="container flex justify-between items-center">
             <Link
               to="/"
