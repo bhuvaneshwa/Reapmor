@@ -192,7 +192,7 @@ export default function Layout() {
           <ul
             className={`${
               isOpenSolution ? "block" : "hidden"
-            } absolute top-full left-0 z-20 bg-gray-900 text-black dark:bg-white w-[15rem] py-2`}
+            } absolute top-11 left-4 z-20 bg-gray-900 text-black dark:bg-white w-[15rem] py-2`}
           >
             {/* Add your solution links here */}
             <li>
@@ -238,7 +238,7 @@ export default function Layout() {
           <ul
             className={`${
               isOpenAbout ? "block" : "hidden"
-            } absolute top-full left-0 z-20 bg-gray-100 text-black dark:bg-white w-full py-2`}
+            } absolute top-11 left-4 z-20 bg-gray-100 text-black dark:bg-white w-full py-2`}
           >
             {/* Add your about us links here */}
             <li>

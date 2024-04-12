@@ -29,9 +29,9 @@ export default function Whyus() {
               />
               <div className="flex flex-col justify-between p-6 space-y-2">
                 <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
-                  Comprehensive coverage
+                 Comprehensive coverage
                 </h2>
-                <p className="text-center leading-7">
+                <p className="text-center">
                   Build data-driven strategies backed by a wealth of agricultural information.
                 </p>
               </div>
@@ -43,13 +43,11 @@ export default function Whyus() {
               <img
                 src="/datacopy_photo.jpeg.jpg"
                 alt=""
-                className="object-cover object-center w-full rounded-t-md sm:h-72"
+                className="object-cover object-left-bottom w-full rounded-t-md sm:h-72"
               />
-              <div className="flex flex-col justify-between p-6 space-y-2">
+              <div className="flex flex-col justify-between p-6 space-y-6">
                 <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
-                Accurate
-
-Information
+                Accurate Information
                 </h2>
                 <p className="text-center leading-7">
                 Trust in our precise and reliable data for optimised outcomes in your business.
@@ -68,7 +66,7 @@ Information
                 alt=""
                 className="object-cover object-center w-full rounded-t-md sm:h-72"
               />
-              <div className="flex flex-col justify-between p-6 space-y-2">
+              <div className="flex flex-col justify-between p-6 space-y-6">
                 <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
                 Timely
 
@@ -91,7 +89,7 @@ Refresh
                 alt=""
                 className="object-cover object-center w-full rounded-t-md sm:h-72"
               />
-              <div className="flex flex-col justify-between p-6 space-y-2">
+              <div className="flex flex-col justify-between p-6 space-y-6">
                 <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
                 Actionable
 

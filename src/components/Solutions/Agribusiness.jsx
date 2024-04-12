@@ -15,11 +15,11 @@ export default function Agribusiness() {
           <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
             <div className="w-full">
               <p className="lg:text-xl text-white xl:mx-20 text-center">
-                In the digital age, data is the most valuable asset for
+                {"''"}In the digital age, data is the most valuable asset for
                 agricultural businesses,
                 <br />
                 enabling them to gain insights, make informed decisions, and
-                drive sustainable growth.
+                drive sustainable growth.{"''"}
                 <br />
                 <span className="block mt-4">- Adi Godrej</span>
               </p>
