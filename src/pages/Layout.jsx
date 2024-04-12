@@ -27,11 +27,11 @@ export default function Layout() {
     <div>
       {/* Mobile Navbar */}
       <header className="md:hidden fixed top-0 left-0 right-0 z-10 bg-green-600 dark:bg-white">
-        <div className="container flex justify-between items-center mx-auto">
+        <div className="container flex justify-between items-center sm:mx-0 mx-auto">
           <Link
             to="/"
             className="flex items-center p-2"
-            aria-label="Back to homepage"
+            
           >
             <img src="/image.png" alt="Logo" className="h-8 mr-2" />
           </Link>
@@ -163,7 +163,7 @@ export default function Layout() {
 
       {/* Desktop Navbar */}
       <nav className="hidden md:block bg-gray-100 dark:bg-white p-2">
-        <div className="container mx-auto md:mx-0 px-16">
+        <div className="container mx-auto md:mx-0 px-[5.3rem]">
           <div className="container flex justify-between items-center">
             <Link
               to="/"

@@ -34,7 +34,7 @@ export default function Whyus() {
                 <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
                   Comprehensive coverage
                 </h2>
-                <p className="text-center">
+                <p className="text-center leading-7">
                   Build data-driven strategies backed by a wealth of
                   agricultural information.
                 </p>
@@ -49,7 +49,7 @@ export default function Whyus() {
                 alt=""
                 className="object-cover object-left-bottom w-full rounded-t-md sm:h-72"
               />
-              <div className="flex flex-col justify-between p-6 space-y-6">
+              <div className="flex flex-col justify-between p-6 space-y-2">
                 <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
                   Accurate Information
                 </h2>
@@ -68,9 +68,9 @@ export default function Whyus() {
                 alt=""
                 className="object-cover object-center w-full rounded-t-md sm:h-72"
               />
-              <div className="flex flex-col justify-between p-6 space-y-6">
+              <div className="flex flex-col justify-between p-6 space-y-2">
                 <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
-                  Timely Refresh
+                  Timely <br/> Refresh
                 </h2>
                 <p className="text-center leading-7">
                   Stay ahead with our {"directory's"} near real-time updates
@@ -87,12 +87,12 @@ export default function Whyus() {
                 alt=""
                 className="object-cover object-center w-full rounded-t-md sm:h-72"
               />
-              <div className="flex flex-col justify-between p-6 space-y-6">
+              <div className="flex flex-col justify-between p-6 space-y-2">
                 <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
-                  Actionable Insights
+                  Actionable recommendations 
                 </h2>
                 <p className="text-center leading-7">
-                  Unlock actionable & practical recommendations to enhance your
+                  Unlock actionable & practical insights to enhance your
                   decision-making efficiency.
                 </p>
               </div>
