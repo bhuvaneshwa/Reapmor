@@ -32,7 +32,7 @@ export default function Hero() {
             </span>
           </h1>
 
-          <p className="md:text-xl lg:text-md xl:text-2xl text-white font-light mb-8 " style={{lineHeight: "50px"}}>
+          <p className="md:text-xl lg:text-md xl:text-2xl text-white font-light mb-8 " style={{lineHeight: "2.5rem"}}>
             Introducing India’s first digital agriculture directory, reimagining
             the industry with innovative data-driven solutions for procurement,
             crop planning, and targeted marketing.

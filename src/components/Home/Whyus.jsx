@@ -6,7 +6,7 @@ export default function Whyus() {
       <section className="my-5 mx-10 dark:bg-gray-100 dark:text-gray-800">
         <div className="container flex flex-col items-center mx-auto mb-1 md:p-1 md:px-12">
           <hr className="w-full border-t border-gray-300 my-4" />
-          <h1 className="p-4 text-lg md:text-xl lg:text-2xl text-center font-normal leading-8">
+          <h1 className="p-4 text-lg md:text-xl lg:text-2xl text-center font-normal" style={{lineHeight: "2.5rem"}}>
             At Reapmor, Our commitment lies in maintaining an up-to-date
             directory, enabling you to take data-driven business decisions.
           </h1>
