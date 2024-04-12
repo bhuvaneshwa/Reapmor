@@ -35,7 +35,7 @@ export default function Directory() {
                 className="flex flex-col justify-start m-2  lg:m-6"
               >
                 <p className="text-sm xs:text-xl  sm:text-base">{category}</p>
-                <p className="text-4xl font-bold leading-none lg:text-3xl">
+                <p className="text-4xl font-bold leading-none lg:text-3xl xs:mb-8">
                   {value}
                 </p>
               </div>
