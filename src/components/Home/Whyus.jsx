@@ -51,7 +51,7 @@ export default function Whyus() {
               />
               <div className="flex flex-col justify-between p-6 space-y-2">
                 <h2 className="text-xl font-bold tracking-wide text-center text-green-600">
-                  Accurate Information
+                  Accurate<br/> Information
                 </h2>
                 <p className="text-center leading-7">
                   Trust in our precise and reliable data for optimised outcomes

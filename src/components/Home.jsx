@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Helmet>
-        <title>Home - Localhost</title>
+        <title>Reapmor</title>
       </Helmet>
       <Hero/>
       <Whyus/>
