@@ -9,7 +9,7 @@ export default {
       screens: {
         'xs': '320px',  // Mobile devices: 320px — 480px
         'sm': '480px',  // iPads, tablets: 481px — 768px
-        'md': '769px',  // Small screens, laptops: 769px — 1024px
+        'md': '768px',  // Small screens, laptops: 769px — 1024px
         'lg': '1025px', // Desktops, large screens: 1025px — 1200px
         'xl': '1201px', // Extra large screens, TV: 1201px and above
       },

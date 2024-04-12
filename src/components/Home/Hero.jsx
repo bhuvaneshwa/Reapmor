@@ -25,9 +25,9 @@ export default function Hero() {
       <div className="absolute inset-0 flex items-center justify-center font-sans">
         <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 px-4 md:px-8 lg:px-16 xl:px-24">
           <div>
-            <h1 className="text-4xl sm:text-center   lg:text-left sm:text-5xl lg:text-6xl
+            <h1 className="text-4xl   lg:text-left sm:text-5xl lg:text-6xl
              leading-10
-            text-white font-extralight tracking-wide  mb-8">
+            text-white font-extralight tracking-wide sm:text-left  mb-8">
               <span>A digital identity</span> <br />
               <span className="pt-4">for every</span> <br />
               <span className="text-[#c2fc03] lg:text-6xl">{texts[textIndex]}</span>
