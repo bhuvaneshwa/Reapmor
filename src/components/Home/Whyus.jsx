@@ -31,8 +31,8 @@ export default function Whyus() {
                 className="object-cover object-center w-full rounded-t-md sm:h-72"
               />
               <div className="flex flex-col justify-between p-6 space-y-2">
-                <h2 className="text-xl xs:text-2xl font-bold tracking-wide text-center text-green-600">
-                  Comprehensive coverage
+                <h2 className="text-xl xs:text-2xl xs:font-normal font-bold tracking-wide text-center text-green-600">
+                  Comprehensive <br/> Coverage
                 </h2>
                 <p className="text-center xs:text-lg leading-7">
                   Build data-driven strategies backed by a wealth of
@@ -50,7 +50,7 @@ export default function Whyus() {
                 className="object-cover object-left-bottom w-full rounded-t-md sm:h-72"
               />
               <div className="flex flex-col justify-between p-6 space-y-2">
-                <h2 className="text-2xl font-bold tracking-wide text-center text-green-600">
+                <h2 className="text-2xl font-bold tracking-wide text-center xs:font-normal text-green-600">
                   Accurate<br/> Information
                 </h2>
                 <p className="text-center xs:text-lg leading-7">
@@ -69,7 +69,7 @@ export default function Whyus() {
                 className="object-cover object-center w-full rounded-t-md sm:h-72"
               />
               <div className="flex flex-col justify-between p-6 space-y-2">
-                <h2 className="text-xl xs:text-2xl font-bold tracking-wide text-center text-green-600">
+                <h2 className="text-xl xs:text-2xl font-bold tracking-wide text-center xs:font-normal text-green-600">
                   Timely <br/> Refresh
                 </h2>
                 <p className="text-center xs:text-lg leading-7">
@@ -88,8 +88,8 @@ export default function Whyus() {
                 className="object-cover object-center w-full rounded-t-md sm:h-72"
               />
               <div className="flex flex-col justify-between p-6 space-y-2">
-                <h2 className="text-xl xs:text-2xl font-bold tracking-wide text-center text-green-600">
-                  Actionable recommendations 
+                <h2 className="text-xl xs:text-2xl font-bold tracking-wide text-center xs:font-normal text-green-600">
+                  Actionable <br/> Recommendations 
                 </h2>
                 <p className="text-center xs:text-lg leading-7">
                   Unlock actionable & practical insights to enhance your
