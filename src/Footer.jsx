@@ -24,7 +24,7 @@ export default function Footer() {
       </footer> */}
 
 
-<footer className="px-4 divide-y dark:bg-gray-100 dark:text-gray-800">
+{/* <footer className="px-4 divide-y dark:bg-gray-100 dark:text-gray-800">
 	<div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 		<div className="lg:w-1/3">
 			<a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
@@ -42,9 +42,7 @@ export default function Footer() {
 					<li>
 						<a rel="noopener noreferrer" href="#">Privacy Policy</a>
 					</li>
-					{/* <li>
-						<a rel="noopener noreferrer" href="#">Terms of Service</a>
-					</li> */}
+					
 				</ul>
 			</div>
 			
@@ -70,10 +68,25 @@ export default function Footer() {
 			</div>
 		</div>
 	</div>
-	{/* <div className="py-6 mx-auto bg-cover h-10 w-28">
-		<img src="/image.png"/>
-	</div> */}
-</footer>
+	
+</footer> */}
+
+
+<div className="px-4 divide-y dark:bg-gray-100 dark:text-gray-800 p-5">
+
+	
+	<ul className="flex justify-between mx-10 text-center">
+		<li>
+		<a className="flex justify-center space-x-3 lg:justify-start">
+				
+				<span>
+				<img src="/image.png" alt="" className="h-10"/>
+				</span>
+			</a>
+		</li>
+		<li className=" xs:mt-2">Privacy Policy</li>
+	</ul>
+</div>
     </div>
   );
 }
