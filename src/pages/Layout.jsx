@@ -96,7 +96,7 @@ export default function Layout() {
             >
               <li>
                 <Link
-                  to="/solution1"
+                  to="/farmer"
                   className={`block px-4 py-2 ${isActive("/solution1")}`}
                 >
                   For Farmer
@@ -104,7 +104,7 @@ export default function Layout() {
               </li>
               <li>
                 <Link
-                  to="/solution2"
+                  to="/agribusiness"
                   className={`block px-4 py-2 ${isActive("/solution2")}`}
                 >
                   For Agri Business
