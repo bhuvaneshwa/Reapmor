@@ -45,32 +45,32 @@ export default function Agribusiness() {
 
           <div className="grid lg:gap-8 lg:grid-cols-2  lg:items-center">
             <div>
-              <h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-900">
+              <h3 className="text-2xl font-bold tracking-tight  sm:text-3xl dark:text-gray-900">
                 Business objectives facilitated by Reapmor
               </h3>
              
               <div className="mt-12 space-y-12">
-                <div className="flex">
-                  <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md  dark:text-gray-50">
-                      <img src="/target.png" />
-                    </div>
-                  </div>
-                  <div className="ml-4">
-                    <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
-                      Direct your marketing spend to the right farmers
-                    </h4>
-                   
-                  </div>
-                </div>
+              <div className="flex">
+  <div className="flex-shrink-0">
+    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:text-gray-50">
+      <img src="/target.png" />
+    </div>
+  </div>
+  <div className="ml-4 flex flex-col justify-center">
+    <h4 className="text-lg font-medium leading-6 dark:text-gray-900 text-center"> 
+      Direct your marketing spend to the right farmers
+    </h4>
+  </div>
+</div>
+
                 <div className="flex">
                   <div className="flex-shrink-0">
                     <div className="flex items-center justify-center w-12 h-12 rounded-md ">
                       <img src="/hold-hands.png" />
                     </div>
                   </div>
-                  <div className="ml-4">
-                    <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
+                  <div className="ml-4 flex flex-col justify-center">
+                    <h4 className="text-lg font-medium leading-6 dark:text-gray-900  text-center">
                       Build great farmer relationships
                     </h4>
                    
@@ -84,7 +84,7 @@ export default function Agribusiness() {
                     </div>
                   </div>
 
-                  <div className="ml-4">
+                  <div className="ml-4 flex flex-col justify-center">
                     <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
 					Improve organizational performance through competitive intelligence
                     </h4>
@@ -98,7 +98,7 @@ export default function Agribusiness() {
                     </div>
                   </div>
 
-                  <div className="ml-4">
+                  <div className="ml-4 flex flex-col justify-center">
                     <h4 className="text-lg font-medium leading-6 dark:text-gray-900">
                       Identify and analyse needs of the farmer through
                       customized surveys

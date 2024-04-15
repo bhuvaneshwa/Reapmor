@@ -162,19 +162,24 @@ export default function Layout() {
       </header>
 
       {/* Desktop Navbar */}
-      <nav className="hidden md:block bg-gray-100 dark:bg-white p-0">
-        <div className="container px-[4.5rem]">
-          <div className="container flex justify-between items-center">
+      <nav className="hidden md:block bg-gray-100 dark:bg-white md:px-8 lg:px-16 xl:px-24 ">
+        <div>
+          
+
+         
+          
+        <div className="container flex items-center">
+
             <Link
               to="/"
-              className="flex items-center p-2"
+              className="flex w-full items-center pt-2 pb-2"
               aria-label="Back to homepage"
             >
               <img src="/image.png" alt="Logo" className="h-10 mr-2" />
             </Link>
 
             
-            <ul className="flex justify-between items-center space-x-4">
+            <ul className="flex justify-end  w-full items-center  ">
               <li>
                 <Link
                   to="/"
@@ -281,6 +286,8 @@ export default function Layout() {
                 </ul>
               </li>
             </ul>
+
+
           </div>
         </div>
       </nav>

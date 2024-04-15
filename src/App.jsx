@@ -22,6 +22,8 @@ export default function App() {
             <Route path="agribusiness" element={<Agribusiness />} />
             <Route path="ourstory" element={<Ourstory />} />
             <Route path="privacypolicy" element={<Privacypolicy />} />
+
+           
           </Route>
         </Routes>
       </BrowserRouter>
