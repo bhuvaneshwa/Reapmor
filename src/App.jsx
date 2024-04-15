@@ -5,8 +5,9 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Agribusiness from "./components/Solutions/Agribusiness";
 import Farmer from "./components/Solutions/Farmer";
-import Footer from "./Footer";
+
 import Ourstory from "./components/Ourstory";
+import Privacypolicy from "./components/Privacypolicy";
 
 
 export default function App() {
@@ -21,13 +22,15 @@ export default function App() {
             <Route path="farmer" element={<Farmer />} />
             <Route path="agribusiness" element={<Agribusiness />} />
             <Route path="ourstory" element={<Ourstory />} />
+
+            <Route path="privacy" element={<Privacypolicy/>} />
             
 
            
           </Route>
         </Routes>
       </BrowserRouter>
-      <Footer />
+      
     </div>
   );
 }

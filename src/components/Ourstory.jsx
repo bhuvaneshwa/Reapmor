@@ -1,7 +1,11 @@
+import Footer from "./Footer";
 
 
 export default function Ourstory() {
   return (
-    <div>Ourstory</div>
+    <div>Ourstory
+
+      <Footer/>
+    </div>
   )
 }

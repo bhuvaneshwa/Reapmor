@@ -221,8 +221,8 @@ export default function Layout() {
                   {/* Add your solution links here */}
                   <li>
                     <Link
-                      to="/farmer"
-                      className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-800"
+                      to=""
+                      className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white"
                     >
                       For Farmer
                     </Link>
@@ -230,7 +230,7 @@ export default function Layout() {
                   <li>
                     <Link
                       to="/agribusiness"
-                      className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-800"
+                      className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white "
                     >
                       For AgriBusiness
                     </Link>
@@ -270,7 +270,7 @@ export default function Layout() {
                   <li>
                     <Link
                       to="/ourstory"
-                      className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-800"
+                      className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white"
                     >
                       Our Story
                     </Link>
@@ -278,7 +278,7 @@ export default function Layout() {
                   <li>
                     <Link
                       to="/contactus"
-                      className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-800"
+                      className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white"
                     >
                       Contact Us
                     </Link>
