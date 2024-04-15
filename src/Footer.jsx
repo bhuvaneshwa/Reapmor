@@ -1,16 +1,11 @@
 
-
-
-
 export default function Footer() {
   return (
     <div>
       <div className="px-4 divide-y dark:bg-gray-100 dark:text-gray-800 p-5">
         <ul className="flex justify-between mx-10 text-center">
           <li>
-
-			
-			<a
+            <a
               to="/"
               className="flex justify-center space-x-3 lg:justify-start"
             >
@@ -18,9 +13,6 @@ export default function Footer() {
                 <img src="/image.png" alt="" className="h-10" />
               </span>
             </a>
-			
-			
-            
           </li>
           <li className="xs:mt-2">
             <div

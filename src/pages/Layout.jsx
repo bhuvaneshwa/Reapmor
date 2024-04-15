@@ -92,14 +92,14 @@ export default function Layout() {
             <ul
               className={`${
                 isOpenSolution ? "block" : "hidden"
-              } bg-gray-100 text-black dark:bg-gray-800`}
+              } bg-gray-100 text-black dark:bg-white`}
             >
               <li>
                 <Link
-                  to="/farmer"
+                  
                   className={`block px-4 py-2 ${isActive("/solution1")}`}
                 >
-                  For Farmer
+                  For Farmer (coming soon)
                 </Link>
               </li>
               <li>
@@ -138,7 +138,7 @@ export default function Layout() {
             <ul
               className={`${
                 isOpenAbout ? "block" : "hidden"
-              } bg-gray-100 text-black dark:bg-gray-800`}
+              } bg-gray-100 text-black dark:bg-white`}
             >
               <li>
                 <Link

@@ -22,7 +22,7 @@ export default function Whyus() {
         </div>
 
         <div className="container grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center mx-auto">
-          {/* Card 1 */}
+         
           <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 transition duration-300 hover:-translate-y-1 hover:scale-110">
             <div className="max-w-xs rounded-md shadow-md">
               <img
