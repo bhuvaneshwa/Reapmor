@@ -6,7 +6,7 @@ export default function Heros() {
       <section className="dark:bg-gray-100 dark:text-gray-800 my-5 mx-10">
         <div>
           <div className="container flex flex-col items-center mx-auto   md:p-1 md:px-12">
-            <h1 className=" xs:text-3xl text-center md:text-4xl lg:text-3xl text-black mt-4 mb-4 ">
+            <h1 className=" xs:text-3xl text-center font-semibold md:text-4xl lg:text-3xl text-black mt-8 mb-4 ">
               Reimagine business, with data
             </h1>
             <hr className="w-full border-t border-gray-300 my-4" />

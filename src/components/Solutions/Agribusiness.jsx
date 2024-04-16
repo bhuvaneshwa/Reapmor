@@ -19,12 +19,13 @@ export default function Agribusiness() {
           <div className="grid grid-cols-1 lg:grid-cols-1 ">
             <div className="w-full bg-red-800 relative flex justify-center items-center h-full">
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <p className="lg:text-xl xl:mt-28 text-white xl:mx-20 xs:leading-8">
+                <p className="text-lg lg:text-center xl:text-center xl:mt-32 xl:p-32 lg:mt-32 lg:p-32   xs:text-xl xs:text-center md:text-xl lg:text-xl xl:text-2xl sm:text-center text-white font-light mb-8 " style={{lineHeight: "2.25rem"}}>
                   {"''"}In the digital age, data is the most valuable asset for
                   agricultural businesses, enabling them to gain insights, make
                   informed decisions, and drive sustainable growth.{"''"}
+                  <span className="block text-white">- Adi Godrej</span>
                 </p>
-                <span className="block mt-4">- Adi Godrej</span>
+                
               </div>
             </div>
           </div>

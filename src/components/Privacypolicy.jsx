@@ -4,7 +4,7 @@ export default function Privacypolicy() {
   return (
     <div className=" font-sans text-justify ">
        <h1 className="text-center lg:text-3xl font-extralight">Reapmor Platform Privacy Policy</h1>
-      <div className="bg-gray-100 mx-14 mt-20  mb-10 p-5">
+      <div className="bg-gray-100 mx-14 mt-20  mb-10 p-5  ">
        
 
         <h1 className="font-bold underline">1.What is the Reapmor Platform?</h1>
@@ -100,7 +100,7 @@ export default function Privacypolicy() {
           5. What personal information do we collect from the people that visit
           our app?
         </h1>
-        <h1 className="font-bold underline">§ Financial Information:</h1>
+        <h1 className=" font-extralight underline">§ Financial Information:</h1>
 
         <p>
           In the course of transacting on the Reapmor Platform, users may be

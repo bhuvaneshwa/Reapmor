@@ -16,7 +16,7 @@ export default function Whyus() {
         <Directory />
 
         <div className="container flex flex-col items-center mx-auto mt-5">
-          <h1 className="text-3xl xs:text-3xl md:text-4xl lg:text-3xl text-black mb-8 xs:mb-8 xs:mt-8">
+          <h1 className="text-3xl font-semibold xs:text-3xl md:text-4xl lg:text-3xl text-black mb-8 xs:mb-8 xs:mt-8">
             Why Reapmor?
           </h1>
         </div>
