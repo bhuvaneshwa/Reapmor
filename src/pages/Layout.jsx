@@ -5,6 +5,8 @@ export default function Layout() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
   const [isOpenSolution, setIsOpenSolution] = useState(false);
   const [isOpenAbout, setIsOpenAbout] = useState(false);
+  const [isSolutionSelected, setIsSolutionSelected] = useState(false);
+  const [isAboutSelected, setIsAboutSelected] = useState(false);
   const location = useLocation();
 
   const toggleMenu = () => {
@@ -13,10 +15,19 @@ export default function Layout() {
 
   const toggleSolution = () => {
     setIsOpenSolution(!isOpenSolution);
+    setIsSolutionSelected(!isSolutionSelected);
+    setIsOpenMenu(false); // Close the mobile menu when a solution is toggled
   };
 
   const toggleAbout = () => {
     setIsOpenAbout(!isOpenAbout);
+    setIsAboutSelected(!isAboutSelected);
+    setIsOpenMenu(false); // Close the mobile menu when About is toggled
+  };
+
+  const closeDropdowns = () => {
+    setIsOpenSolution(false);
+    setIsOpenAbout(false);
   };
 
   const isActive = (pathname) => {
@@ -31,7 +42,9 @@ export default function Layout() {
           <Link
             to="/"
             className="flex items-center p-2"
-            
+            onClick={() => {
+              setIsOpenMenu(false); // Close the mobile menu when "Home" is selected
+            }}
           >
             <img src="/image.png" alt="Logo" className="h-8 mr-2" />
           </Link>
@@ -62,7 +75,7 @@ export default function Layout() {
           } bg-gray-100 text-white dark:bg-green-600 w-full`}
         >
           <li>
-            <Link to="/" className={`block px-4 py-2 ${isActive("/")}`}>
+            <Link to="/" className={`block px-4 py-2 ${isActive("/")}`} onClick={closeDropdowns}>
               Home
             </Link>
           </li>
@@ -98,6 +111,10 @@ export default function Layout() {
                 <Link
                   
                   className={`block px-4 py-2 ${isActive("/solution1")}`}
+                  onClick={() => {
+                    setIsSolutionSelected(true);
+                    setIsOpenMenu(false); // Close the mobile menu when a solution is selected
+                  }}
                 >
                   For Farmer (coming soon)
                 </Link>
@@ -106,6 +123,10 @@ export default function Layout() {
                 <Link
                   to="/agribusiness"
                   className={`block px-4 py-2 ${isActive("/solution2")}`}
+                  onClick={() => {
+                    setIsSolutionSelected(true);
+                    setIsOpenMenu(false); // Close the mobile menu when a solution is selected
+                  }}
                 >
                   For Agri Business
                 </Link>
@@ -144,6 +165,10 @@ export default function Layout() {
                 <Link
                   to="/about/team"
                   className={`block px-4 py-2 ${isActive("/about/team")}`}
+                  onClick={() => {
+                    setIsAboutSelected(true);
+                    setIsOpenMenu(false); // Close the mobile menu when About is selected
+                  }}
                 >
                   Our Team
                 </Link>
@@ -152,6 +177,10 @@ export default function Layout() {
                 <Link
                   to="/about/company"
                   className={`block px-4 py-2 ${isActive("/about/company")}`}
+                  onClick={() => {
+                    setIsAboutSelected(true);
+                    setIsOpenMenu(false); // Close the mobile menu when About is selected
+                  }}
                 >
                   Our Company
                 </Link>
@@ -216,23 +245,33 @@ export default function Layout() {
                 <ul
                   className={`${
                     isOpenSolution ? "block" : "hidden"
-                  } absolute top-11 left-4 z-20 bg-gray-900 text-black dark:bg-white w-[15rem] py-2`}
+                  } absolute top-13 left-4 z-20 bg-gray-900 text-black dark:bg-white w-[15rem] py-2`}
                 >
                   {/* Add your solution links here */}
-                  <li>
-                    <Link
-                      to=""
-                      className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white"
-                    >
-                      For Farmer
-                    </Link>
-                  </li>
+                  
                   <li>
                     <Link
                       to="/agribusiness"
                       className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white "
+                      onClick={() => {
+                        setIsSolutionSelected(true);
+                        setIsOpenSolution(false); // Close the dropdown after a solution is selected
+                      }}
                     >
                       For AgriBusiness
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link
+                      to=""
+                      className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white"
+                      onClick={() => {
+                        setIsSolutionSelected(true);
+                        setIsOpenSolution(false); // Close the dropdown after a solution is selected
+                      }}
+                    >
+                      For Farmer (coming soon)
                     </Link>
                   </li>
                 </ul>
@@ -264,25 +303,35 @@ export default function Layout() {
                 <ul
                   className={`${
                     isOpenAbout ? "block" : "hidden"
-                  } absolute top-11 left-4 z-20 bg-gray-100 text-black dark:bg-white w-full py-2`}
+                  } absolute top-11 left-4 z-20 bg-gray-100 text-black dark:bg-white w-40 py-2 `}
                 >
                   {/* Add your about us links here */}
-                  <li>
-                    <Link
-                      to="/ourstory"
-                      className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white"
-                    >
-                      Our Story
-                    </Link>
-                  </li>
+
                   <li>
                     <Link
                       to="/contactus"
                       className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white"
+                      onClick={() => {
+                        setIsAboutSelected(true);
+                        setIsOpenAbout(false); // Close the dropdown after About is selected
+                      }}
                     >
                       Contact Us
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      to="/"
+                      className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white"
+                      onClick={() => {
+                        setIsAboutSelected(true);
+                        setIsOpenAbout(false); // Close the dropdown after About is selected
+                      }}
+                    >
+                      Our Story (coming soon)
+                    </Link>
+                  </li>
+                 
                 </ul>
               </li>
             </ul>
