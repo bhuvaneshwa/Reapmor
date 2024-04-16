@@ -26,25 +26,6 @@ export default function Layout() {
     return location.pathname === pathname ? "border-b-2 border-green-500" : "";
   };
 
-  const handleSolutionClick = () => {
-    setIsOpenSolution(!isOpenSolution);
-    setIsOpenAbout(false); // Close the about dropdown
-    setIsOpenMenu(false); // Close the mobile navbar
-  };
-
-  const handleAboutClick = () => {
-    setIsOpenAbout(!isOpenAbout);
-    setIsOpenSolution(false); // Close the solutions dropdown
-    setIsOpenMenu(false); // Close the mobile navbar
-  };
-
-  const handleHomeClick = () => {
-    // Close the dropdowns before navigating to home
-    setIsOpenSolution(false);
-    setIsOpenAbout(false);
-  };
-
-
   return (
     <div>
       {/* Mobile Navbar */}
@@ -80,15 +61,7 @@ export default function Layout() {
           } bg-gray-100 text-black hover:text-black dark:bg-white w-full`}
         >
           <li>
-            <Link
-              to="/"
-              className={`block px-4 py-2 ${isActive("/")}`}
-              onClick={() => {
-                setIsOpenAbout(false); // Close the about dropdown
-                setIsOpenSolution(false); // Close the solutions dropdown
-                setIsOpenMenu(false); // Close the mobile navbar
-              }}
-            >
+            <Link to="/" className={`block px-4 py-2  ${isActive("/")}`}>
               Home
             </Link>
           </li>
@@ -124,19 +97,18 @@ export default function Layout() {
                 <Link
                   to="/agribusiness"
                   className={`block px-4 py-2 ${isActive("/")}`}
-                  onClick={handleSolutionClick}
+                  onClick={() => {
+                   
+                  }}
                 >
                   For Agri Business
                 </Link>
               </li>
               <li>
                 <Link
-                  to=""
-                  className={`block px-4 py-2 ${isActive("")}`}
+                  className={`block px-4 py-2  ${isActive("")}`}
                   onClick={() => {
-                    setIsOpenAbout(false); // Close the about dropdown
-                    setIsOpenSolution(false); // Close the solutions dropdown
-                    setIsOpenMenu(false); // Close the mobile navbar
+                   
                   }}
                 >
                   For Farmer (coming soon)
@@ -176,7 +148,9 @@ export default function Layout() {
                 <Link
                   to="/contactus"
                   className={`block px-4 py-2 ${isActive("")}`}
-                  onClick={handleAboutClick}
+                  onClick={() => {
+                   
+                  }}
                 >
                   Our Contact
                 </Link>
@@ -184,11 +158,9 @@ export default function Layout() {
               <li>
                 <Link
                   to=""
-                  className={`block px-4 py-2 ${isActive("")}`}
+                  className={`block px-4 py-2  ${isActive("/about/company")}`}
                   onClick={() => {
-                    setIsOpenAbout(false); // Close the about dropdown
-                    setIsOpenSolution(false); // Close the solutions dropdown
-                    setIsOpenMenu(false); // Close the mobile navbar
+                   
                   }}
                 >
                   Our Story (coming soon)
@@ -207,23 +179,20 @@ export default function Layout() {
               to="/"
               className="flex w-full items-center pt-2 pb-2"
               aria-label="Back to homepage"
-              onClick={handleHomeClick}
             >
               <img src="/image.png" alt="Logo" className="h-10 mr-2" />
             </Link>
 
             <ul className="flex justify-end  w-full items-center  ">
               <li>
-              <Link
-                to="/"
-                className={`text-gray-800 dark:text-black px-4 py-2 ${isActive("/")}`}
-                onClick={() => {
-                  setIsOpenSolution(false);
-                  setIsOpenAbout(false);
-                }}
-              >
-                Home
-              </Link>
+                <Link
+                  to="/"
+                  className={`text-gray-800 dark:text-black px-4 py-2 ${isActive(
+                    "/"
+                  )}`}
+                >
+                  Home
+                </Link>
               </li>
               <li className="relative">
                 <button
@@ -260,6 +229,7 @@ export default function Layout() {
                       to="/agribusiness"
                       className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white "
                       onClick={() => {
+                        setIsSolutionSelected(true);
                         setIsOpenSolution(false); // Close the dropdown after a solution is selected
                       }}
                     >
@@ -272,6 +242,7 @@ export default function Layout() {
                       to=""
                       className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white"
                       onClick={() => {
+                        setIsSolutionSelected(true);
                         setIsOpenSolution(false); // Close the dropdown after a solution is selected
                       }}
                     >
@@ -316,6 +287,7 @@ export default function Layout() {
                       to="/contactus"
                       className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white"
                       onClick={() => {
+                        setIsAboutSelected(true);
                         setIsOpenAbout(false); // Close the dropdown after About is selected
                       }}
                     >
@@ -327,6 +299,7 @@ export default function Layout() {
                       to="/"
                       className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white"
                       onClick={() => {
+                        setIsAboutSelected(true);
                         setIsOpenAbout(false); // Close the dropdown after About is selected
                       }}
                     >

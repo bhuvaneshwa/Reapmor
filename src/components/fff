@@ -1,32 +1,6 @@
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
 
 export default function Footer() {
-  useEffect(() => {
-    const handleScrollToTop = () => {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    };
-
-    const footerLinks = document.querySelectorAll(".footer-link");
-
-    footerLinks.forEach((link) => {
-      link.addEventListener("click", handleScrollToTop);
-    });
-
-    return () => {
-      footerLinks.forEach((link) => {
-        link.removeEventListener("click", handleScrollToTop);
-      });
-    };
-  }, []);
-
-//   const handleExternalLinkClick = (url) => {
-//     window.open(url, "_blank");
-//   };
-
   return (
     <div>
       <footer className="px-4 divide-y dark:bg-gray-100 dark:text-gray-800">
@@ -49,9 +23,7 @@ export default function Footer() {
               </h3>
               <ul className="space-y-1">
                 <li>
-                  <Link to="/" className="footer-link">
-                    Digital Directory
-                  </Link>
+                  <Link to="/">Digital Directory</Link>
                 </li>
               </ul>
             </div>
@@ -61,15 +33,10 @@ export default function Footer() {
               </h3>
               <ul className="space-y-1">
                 <li>
-                  <Link to="/agribusiness" className="footer-link">
-                    For Agribusiness
-                  </Link>
+                  <Link to="/agribusiness">For Agribusiness</Link>
                 </li>
                 <li>
-                  <a href="#">
-                    {/* onClick={() => handleExternalLinkClick("external-link-url")} */}
-                    For Farmers (coming soon)
-                  </a>
+                  <a>For Farmers (coming soon)</a>
                 </li>
               </ul>
             </div>
@@ -77,15 +44,10 @@ export default function Footer() {
               <h3 className="uppercase dark:text-gray-900">Company</h3>
               <ul className="space-y-1">
                 <li>
-                  <Link to="/contactus" className="footer-link">
-                    Contact Us
-                  </Link>
+                  <Link to="/contactus">Contact Us</Link>
                 </li>
                 <li>
-                  <a href="#">
-                    {/* onClick={() => handleExternalLinkClick("external-link-url")} */}
-                    Our Story (coming soon)
-                  </a>
+                  <a>Our Story (coming soon)</a>
                 </li>
               </ul>
             </div>
@@ -97,7 +59,6 @@ export default function Footer() {
                   href="#"
                   title="Linkedin"
                   className="flex items-center p-1"
-                  //   onClick={() => handleExternalLinkClick("linkedin-url")}
                 >
                   <img src="/linkedin.svg" className="w-5 h-5 fill-current" />
                 </a>
