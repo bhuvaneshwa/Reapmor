@@ -63,7 +63,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <a>
                     {/* onClick={() => handleExternalLinkClick("external-link-url")} */}
                     For Farmers (coming soon)
                   </a>
@@ -79,7 +79,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <a>
                     {/* onClick={() => handleExternalLinkClick("external-link-url")} */}
                     Our Story (coming soon)
                   </a>
@@ -89,15 +89,15 @@ export default function Footer() {
             <div className="space-y-6">
               <div className="uppercase font-bold dark:text-gray-900">Social media</div>
               <div className="flex justify-start mr-4 space-x-3">
-                <a
-                  rel="noopener noreferrer"
-                  href="https://www.linkedin.com/company/reapmor/about/"
-                  title="Linkedin"
-                  className="flex items-center p-1"
-                  //   onClick={() => handleExternalLinkClick("linkedin-url")}
-                >
-                  <img src="/linkedin.svg" className="w-5 h-5 fill-current" />
-                </a>
+              <a
+
+  href="https://www.linkedin.com/company/reapmor/about/"
+  title="Linkedin"
+  className="flex items-center p-1"
+  target="_blank" >
+  <img src="/linkedin.svg" className="w-5 h-5 fill-current" />
+</a>
+
               </div>
             </div>
           </div>

@@ -64,6 +64,7 @@ export default function Contact() {
                     rel="noopener noreferrer"
                     href="https://www.linkedin.com/company/reapmor"
                     title="Linkedin"
+                    target="_blank"
                     className="flex items-center "
                   >
                     <img
