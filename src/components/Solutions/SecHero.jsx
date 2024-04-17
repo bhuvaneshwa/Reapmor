@@ -1,12 +1,12 @@
-export default function SecHero() {
+export default function   SecHero() {
   return (
     <div className="mx-5">
       <section className="dark:bg-gray-100 dark:text-gray-800">
         <div className="container max-w-xl py-8 mx-auto space-y-24 lg:px-8 lg:max-w-7xl ">
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-stretch">
             {/* Left column with an image */}
-            <div className="lg:col-start-1 lg:row-start-1 flex items-center justify-center ">
-              <div className="h-[30rem] xs:h-[14rem] lg:h-auto flex justify-center"> {/* Modified this line */}
+            <div className="lg:col-start-1 lg:row-start-1 flex items-center justify-center lg:mt-6  xl:mt-6">
+              <div className="h-[30rem] xs:h-[14rem] lg:h-auto flex justify-center"> 
                 <img
                   src="/agri02.jpg"
                   alt=""
@@ -15,7 +15,7 @@ export default function SecHero() {
               </div>
             </div>
             {/* Right column with text content */}
-            <div className="lg:mt-0 lg:col-start-2 flex flex-col justify-center">
+            <div className="lg:mt-0 lg:col-start-2 flex flex-col justify-center xl:-mt-5">
               <h3 className="xs:text-3xl  text-center font-semibold md:text-4xl lg:text-3xl text-black mt-8 mb-4 xs:px-1">
                 Business objectives facilitated by Reapmor
               </h3>

@@ -22,9 +22,7 @@ export default function Layout() {
     setIsOpenSolution(false);
   };
 
-  const isActive = (pathname) => {
-    return location.pathname === pathname ? "border-b-2 border-green-500" : "";
-  };
+ 
 
   const handleSolutionClick = () => {
     setIsOpenSolution(!isOpenSolution);
@@ -82,7 +80,7 @@ export default function Layout() {
           <li>
             <Link
               to="/"
-              className={`block px-4 py-2 ${isActive("/")}`}
+              className={`block px-4 py-2`}
               onClick={() => {
                 setIsOpenAbout(false); // Close the about dropdown
                 setIsOpenSolution(false); // Close the solutions dropdown
@@ -95,9 +93,7 @@ export default function Layout() {
           <li>
             <button
               onClick={toggleSolution}
-              className={`flex items-center justify-between w-full px-4 py-2 focus:outline-none ${isActive(
-                ""
-              )}`}
+              className={`flex items-center justify-between w-full px-4 py-2 focus:outline-none`}
             >
               Solutions
               <svg
@@ -123,7 +119,7 @@ export default function Layout() {
               <li>
                 <Link
                   to="/agribusiness"
-                  className={`block px-4 py-2 ${isActive("/")}`}
+                  className={`block px-4 py-2`}
                   onClick={handleSolutionClick}
                 >
                   For Agri Business
@@ -132,7 +128,7 @@ export default function Layout() {
               <li>
                 <Link
                   to=""
-                  className={`block px-4 py-2 ${isActive("")}`}
+                  className={`block px-4 py-2`}
                   onClick={() => {
                     setIsOpenAbout(false); // Close the about dropdown
                     setIsOpenSolution(false); // Close the solutions dropdown
@@ -147,9 +143,7 @@ export default function Layout() {
           <li>
             <button
               onClick={toggleAbout}
-              className={`flex items-center justify-between w-full px-4 py-2 focus:outline-none ${isActive(
-                "/about"
-              )}`}
+              className={`flex items-center justify-between w-full px-4 py-2 focus:outline-none`}
             >
               About Us
               <svg
@@ -175,7 +169,7 @@ export default function Layout() {
               <li>
                 <Link
                   to="/contactus"
-                  className={`block px-4 py-2 ${isActive("")}`}
+                  className={`block px-4 py-2`}
                   onClick={handleAboutClick}
                 >
                   Our Contact
@@ -184,7 +178,7 @@ export default function Layout() {
               <li>
                 <Link
                   to=""
-                  className={`block px-4 py-2 ${isActive("")}`}
+                  className={`block px-4 py-2`}
                   onClick={() => {
                     setIsOpenAbout(false); // Close the about dropdown
                     setIsOpenSolution(false); // Close the solutions dropdown
@@ -216,7 +210,7 @@ export default function Layout() {
               <li>
               <Link
                 to="/"
-                className={`text-gray-800 dark:text-black px-4 py-2 ${isActive("/")}`}
+                className={`text-gray-800 dark:text-black px-4 py-2`}
                 onClick={() => {
                   setIsOpenSolution(false);
                   setIsOpenAbout(false);
@@ -228,9 +222,7 @@ export default function Layout() {
               <li className="relative">
                 <button
                   onClick={toggleSolution}
-                  className={`flex items-center text-gray-800 dark:text-black px-4 py-2 focus:outline-none ${isActive(
-                    "/solution"
-                  )}`}
+                  className={`flex items-center text-gray-800 dark:text-black px-4 py-2 focus:outline-none`}
                 >
                   Solutions
                   <svg
@@ -284,9 +276,7 @@ export default function Layout() {
               <li className="relative">
                 <button
                   onClick={toggleAbout}
-                  className={`flex items-center text-gray-800 dark:text-black px-4 py-2 focus:outline-none ${isActive(
-                    "/about"
-                  )}`}
+                  className={`flex items-center text-gray-800 dark:text-black px-4 py-2 focus:outline-none`}
                 >
                   About Us
                   <svg

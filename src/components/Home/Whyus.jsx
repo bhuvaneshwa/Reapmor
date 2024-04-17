@@ -28,7 +28,7 @@ export default function Whyus() {
               <img
                 src="https://spinoff.nasa.gov/sites/default/files/2020-08/ee_29_web_1.jpg"
                 alt=""
-                className="object-cover object-center w-full rounded-t-md sm:h-72"
+                className="object-cover object-center w-full rounded-t-md xs:h-60  sm:h-72"
               />
               <div className="flex flex-col justify-between p-6 space-y-2">
                 <h2 className="text-xl xs:text-2xl xs:font-normal font-bold tracking-wide text-center text-green-600">
