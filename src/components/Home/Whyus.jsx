@@ -23,8 +23,8 @@ export default function Whyus() {
 
         <div className="container grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center mx-auto">
          
-          <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 transition duration-300 hover:-translate-y-1 hover:scale-110">
-            <div className="max-w-xs rounded-md shadow-md">
+          <div className="cursor-pointer flex flex-col max-w-sm  mx-4 my-6 transition duration-300 hover:-translate-y-1 hover:scale-110">
+            <div className="max-w-xs lg:w-[17rem]  rounded-md shadow-md">
               <img
                 src="https://spinoff.nasa.gov/sites/default/files/2020-08/ee_29_web_1.jpg"
                 alt=""
@@ -43,7 +43,7 @@ export default function Whyus() {
           </div>
 
           <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 transition duration-300 hover:-translate-y-1 hover:scale-110">
-            <div className="max-w-xs rounded-md shadow-md">
+            <div className="max-w-xs lg:w-[17rem] rounded-md shadow-md">
               <img
                 src="/datacopy_photo.jpeg.jpg"
                 alt=""
@@ -62,7 +62,7 @@ export default function Whyus() {
           </div>
 
           <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 transition duration-300 hover:-translate-y-1 hover:scale-110">
-            <div className="max-w-xs rounded-md shadow-md">
+            <div className="max-w-xs lg:w-[17rem] rounded-md shadow-md">
               <img
                 src="/Farming-Cycle.png"
                 alt=""
@@ -81,7 +81,7 @@ export default function Whyus() {
           </div>
 
           <div className="cursor-pointer flex flex-col max-w-sm mx-4 my-6 transition duration-300 hover:-translate-y-1 hover:scale-110">
-            <div className="max-w-xs rounded-md shadow-md">
+            <div className="max-w-xs lg:w-[17rem] rounded-md shadow-md">
               <img
                 src="/why42.jpg"
                 alt=""
