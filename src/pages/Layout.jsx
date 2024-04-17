@@ -261,7 +261,7 @@ export default function Layout() {
                   <li>
                     <a
                       
-                      className="block px-4 py-2 bg-white dark:hover:bg-green-600 cursor-pointer hover:text-white"
+                      className="block px-4 py-2 bg-white dark:hover:bg-green-600  hover:text-white"
                       onClick={() => {
                         setIsOpenSolution(false); // Close the dropdown after a solution is selected
                       }}
@@ -314,7 +314,7 @@ export default function Layout() {
                   <li>
                     <a 
                       
-                      className="block px-4 py-2 bg-white dark:hover:bg-green-600 cursor-pointer hover:text-white"
+                      className="block px-4 py-2 bg-white dark:hover:bg-green-600  hover:text-white"
                       onClick={() => {
                         setIsOpenAbout(false); // Close the dropdown after About is selected
                       }}
