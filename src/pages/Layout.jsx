@@ -171,7 +171,7 @@ export default function Layout() {
                   className={`block px-4 py-2`}
                   onClick={handleAboutClick}
                 >
-                  Our Contact
+                  Contact Us
                 </Link>
               </li>
               <li>
