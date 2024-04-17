@@ -23,9 +23,7 @@ export default function Footer() {
     };
   }, []);
 
-//   const handleExternalLinkClick = (url) => {
-//     window.open(url, "_blank");
-//   };
+
 
   return (
     <div>
@@ -42,11 +40,11 @@ export default function Footer() {
             </a>
           </div>
           <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
-            <div className="space-y-3">
+            <div className="space-y-6">
               <h3 className="tracking-wide uppercase font-bold dark:text-gray-900">
                 Product
               </h3>
-              <ul className="space-y-1">
+              <ul className="space-y-3">
                 <li>
                   <Link to="/" className="footer-link">
                     Digital Directory
@@ -54,7 +52,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="space-y-3">
+            <div className="space-y-6">
               <h3 className="tracking-wide font-bold uppercase dark:text-gray-900">
                 Solutions
               </h3>
@@ -72,7 +70,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="space-y-3">
+            <div className="space-y-6">
               <h3 className="uppercase font-bold dark:text-gray-900">Company</h3>
               <ul className="space-y-3">
                 <li>
@@ -88,12 +86,12 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="space-y-3">
+            <div className="space-y-6">
               <div className="uppercase font-bold dark:text-gray-900">Social media</div>
               <div className="flex justify-start mr-4 space-x-3">
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  href="https://www.linkedin.com/company/reapmor/about/"
                   title="Linkedin"
                   className="flex items-center p-1"
                   //   onClick={() => handleExternalLinkClick("linkedin-url")}
@@ -104,7 +102,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="py-6 text-sm text-center dark:text-gray-600">
+        <div className="py-3 text-sm text-center dark:text-gray-600">
           © 2024 Reapmor All rights reserved.
         </div>
       </footer>

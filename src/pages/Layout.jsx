@@ -1,12 +1,11 @@
 import { useState } from "react";
-import { Outlet, Link, useLocation } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 
 export default function Layout() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
   const [isOpenSolution, setIsOpenSolution] = useState(false);
   const [isOpenAbout, setIsOpenAbout] = useState(false);
 
-  const location = useLocation();
 
   const toggleMenu = () => {
     setIsOpenMenu(!isOpenMenu);
@@ -206,7 +205,7 @@ export default function Layout() {
               <img src="/image.png" alt="Logo" className="h-10 mr-2" />
             </Link>
 
-            <ul className="flex justify-end  w-full items-center  ">
+            <ul className="flex justify-end  w-full items-center ">
               <li>
               <Link
                 to="/"
@@ -219,7 +218,7 @@ export default function Layout() {
                 Home
               </Link>
               </li>
-              <li className="relative">
+              <li className="relative ">
                 <button
                   onClick={toggleSolution}
                   className={`flex items-center text-gray-800 dark:text-black px-4 py-2 focus:outline-none`}
@@ -243,7 +242,7 @@ export default function Layout() {
                 <ul
                   className={`${
                     isOpenSolution ? "block" : "hidden"
-                  } absolute top-13 left-4 z-20 bg-gray-900 text-black dark:bg-white w-[15rem] py-2`}
+                  } absolute top-[2.5rem] left-4 z-20 text-black dark:bg-white w-40 py-2`}
                 >
                   {/* Add your solution links here */}
 
@@ -260,20 +259,20 @@ export default function Layout() {
                   </li>
 
                   <li>
-                    <Link
-                      to=""
-                      className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white"
+                    <a
+                      
+                      className="block px-4 py-2 bg-white dark:hover:bg-green-600 cursor-pointer hover:text-white"
                       onClick={() => {
                         setIsOpenSolution(false); // Close the dropdown after a solution is selected
                       }}
                     >
                       For Farmer (coming soon)
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </li>
 
-              <li className="relative">
+              <li className="relative ">
                 <button
                   onClick={toggleAbout}
                   className={`flex items-center text-gray-800 dark:text-black px-4 py-2 focus:outline-none`}
@@ -297,7 +296,7 @@ export default function Layout() {
                 <ul
                   className={`${
                     isOpenAbout ? "block" : "hidden"
-                  } absolute top-11 left-4 z-20 bg-gray-100 text-black dark:bg-white w-40 py-2 `}
+                  } absolute top-[2.5rem] left-4 z-20 bg-gray-100 text-black dark:bg-white w-40 py-2 `}
                 >
                   {/* Add your about us links here */}
 
@@ -313,15 +312,15 @@ export default function Layout() {
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      to="/"
-                      className="block px-4 py-2 bg-white dark:hover:bg-green-600 hover:text-white"
+                    <a 
+                      
+                      className="block px-4 py-2 bg-white dark:hover:bg-green-600 cursor-pointer hover:text-white"
                       onClick={() => {
                         setIsOpenAbout(false); // Close the dropdown after About is selected
                       }}
                     >
                       Our Story (coming soon)
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </li>
